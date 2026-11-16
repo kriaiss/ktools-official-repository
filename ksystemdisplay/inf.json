@@ -1,0 +1,19 @@
+{
+  "name": "ksystemdisplay",
+  "author": "kriaiss",
+  "version": "1.0.2",
+  "description": "cool system display monitor",
+  "dependencies": [
+    "psutil"
+  ],
+  "settings": [
+    "toggle ksystemdisplay"
+  ],
+  "hotkeys": {
+    "toggle_ksystemdisplay": {
+      "label": "toggle system display",
+      "hotkey": "opt+cmd+\\",
+      "callback": "toggle_ksystemdisplay"
+    }
+  }
+}
