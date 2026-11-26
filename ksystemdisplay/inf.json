@@ -1,7 +1,7 @@
 {
   "name": "ksystemdisplay",
   "author": "kriaiss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "cool system display monitor",
   "dependencies": [
     "psutil"
@@ -15,5 +15,8 @@
       "hotkey": "opt+cmd+\\",
       "callback": "toggle_ksystemdisplay"
     }
-  }
+  },
+  "preserve": [
+    "ksystemdisplay.json"
+  ]
 }
