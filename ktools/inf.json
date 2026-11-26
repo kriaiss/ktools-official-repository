@@ -1,0 +1,7 @@
+{
+  "name": "ktools",
+  "author": "kriaiss",
+  "version": "1.1.0",
+  "description": "core engine for ktools modular environment",
+  "readme": "# ktools core\nModular desktop environment and plugin manager for macOS."
+}
